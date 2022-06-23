@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="realTimeClock.js"></script>
+</head>
+<body >
+
+
+<!--Real Time Clock -->
+<div class="RealTimeClock_Class">
+    <label>Browser/Local datetime : </label>
+    <div id="localTimeDiv">
+    </div>    
+	<br>
+
+    <label>Toronto Time : </label>
+    <div id="torontoTimeDiv">
+    </div>
+
+	<br>
+    <label>UTC Time : </label>
+    <div id="utcTimeDiv">
+    </div>  
+
+	<br>
+    <label>Indian Time : </label>
+    <div id="indianTimeDiv">
+    </div>  
+</div>
+
+<!--User/Auto Mode Selector-->
+<div>
+<label for="selectUserAutoID">User/Auto</label> 
+<input type="checkbox" id="selectUserAutoID" onclick="userAutoModeSelectorID()">
+
+<p id="displayUserAutoID" >User Mode by default</p>
+
+</div>
+
+
+</body>
+</html>
