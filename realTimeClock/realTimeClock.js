@@ -1,10 +1,14 @@
+
 const weekdayInWords = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 const monthInWords = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+document.onload = RTCInit();
 
 function RTCInit()
     {
+		
+
     liveClockLocal();
 	liveClockToronto();
     liveClockUTC();
